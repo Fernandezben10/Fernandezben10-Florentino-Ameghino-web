@@ -1,0 +1,121 @@
+header{
+    background: linear-gradient(320deg,#ff8000,#ff0000);
+    height:65px;
+    display: flex; 
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.FA{
+    display: flex;
+    text-align: center;
+    margin-left: 10px;
+
+}
+.A{
+   display: flex;
+   align-items: center;
+   
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav a{
+    padding-right: 15px;
+    font-weight: 600;
+}
+nav a:hover{
+    color: white;
+}
+.contenedor .inputs .boton{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.contenedor .inputs .boton:hover{
+    background-color:rgb(90, 90, 90);
+    color:white;
+
+}
+h6{
+    text-align: end;
+    color: white;
+}
+h6:hover{
+    color: rgba(170, 170, 170, 0.3);
+    text-decoration: underline;
+}
+hr{
+    width: 97%;
+}
+.chesquinho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    hr{
+        width: 46%;
+        height: 0px;
+    }
+}
+.contenedor{
+    border-radius: 20px;
+    height: 175px;
+    width: 261px;
+    animation: cheschess;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.quee{
+    display: flex;
+    justify-content: center;
+}
+.ahh{
+    display: flex;
+    justify-content: end;
+}
+.volver{
+    width: 45px;
+    height: 45px;
+    font-size: x-large;
+    border: 0px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.63);
+}
+@keyframes chesches{
+    0%{
+        text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.521);
+    }
+    25%{
+        text-shadow: 0px 0px 15px red;
+    }
+    50%{
+        text-shadow: 0px 0px 15px green;
+    }
+    75%{  
+        text-shadow: 0px 0px 15px blue;
+    }
+    100%{
+        text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.521);
+    }
+}
+@keyframes cheschess{
+    0%{
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.815);
+    }
+    25%{
+        box-shadow: 0px 0px 25px rgb(255, 0, 0, 0.815);
+    }
+    50%{
+        box-shadow: 0px 0px 25px rgba(0, 128, 0, 0.815);
+    }
+    75%{  
+        box-shadow: 0px 0px 25px rgba(0, 0, 255, 0.815);
+    }
+    100%{
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.815);
+    }
+}
+.queee{
+    animation: chesches;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+}

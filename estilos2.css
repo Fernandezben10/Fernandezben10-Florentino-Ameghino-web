@@ -1,0 +1,70 @@
+header{
+    background: linear-gradient(320deg,#00eeff,#1900ff);
+    height:65px;
+    display: flex; 
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.FA{
+    display: flex;
+    text-align: center;
+    margin-left: 10px;
+
+}
+.A{
+   display: flex;
+   align-items: center;
+   
+}
+.se{
+    text-decoration: none;
+    color: black;
+    padding-right: 15px;
+}
+.historias{
+    display: flex;
+    justify-content: center;
+    font-size: small;
+    gap: 10px;
+}
+.ase{
+    display: flex;
+    gap: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav{
+    font-weight: 600;
+}
+.se a:hover{
+    color:white;
+}
+
+h6{
+    text-align: end;
+    color: white;
+}
+h6:hover{
+    color: rgba(170, 170, 170, 0.3);
+    text-decoration: underline;
+}
+.ahh{
+    display: flex;
+    justify-content: end;
+}
+.volver{
+    width: 45px;
+    height: 45px;
+    font-size: x-large;
+    border: 0px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.63);
+}
+h1{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
