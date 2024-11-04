@@ -24,6 +24,9 @@ header{
    align-items: center;
    padding-left: 15px;
 }
+.A img{
+    width: 35px;
+}
 .se{
     text-decoration: none;
     color: black;

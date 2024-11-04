@@ -1,6 +1,9 @@
+html{
+    scroll-behavior: smooth;
+}
 header{
     background: linear-gradient(320deg,#ff8000,#ff0000);
-    height:65px;
+    height:40px;
     display: flex; 
     padding: 10px;
     justify-content: space-between;
@@ -16,7 +19,11 @@ header{
 .A{
    display: flex;
    align-items: center;
+   padding-left: 15px;
    
+}
+.A img{
+    width: 35px;
 }
 a{
     text-decoration: none;
